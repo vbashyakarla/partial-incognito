@@ -16,7 +16,7 @@ Given the privacy risks at hand, can we generalize the published data to maintai
 
 We begin with a generalization hierarchy of the domain by which the domain is generalized. See Le Fevre et al.'s [paper](https://dl.acm.org/doi/10.1145/1066157.1066164) for details.
 
-From the generalizatoin hierarchy, a series of lattices representing different domain generalizations are constructed. These lattices are organized logically; the domain is increasingly generalized when traversing the lattice from bottom to top. 
+From the generalization hierarchy, a series of lattices representing different domain generalizations are constructed. These lattices are organized logically; the domain is increasingly generalized when traversing the lattice from bottom to top. 
 
 Incognito leverages the generalization and (anti-)subset properites. 
 
