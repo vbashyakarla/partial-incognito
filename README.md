@@ -11,6 +11,10 @@ Given the privacy risks at hand, can we generalize the published data to maintai
 
 ## Data
 
+The data being generalized here originally come from the Texas Department of Health and Human Services. The Department's 2021 Induced Terminations of Pregnancy (ITOP) [data](https://www.hhs.texas.gov/about/records-statistics/data-statistics/itop-statistics) contains two datasets of interest:
+
+* 2021 Induced Terminations of Pregnancy by Age and County of Residence
+* 2021 Induced Terminations of Pregnancy by Race/Ethnicity and County of Residence
 
 ## Implementation Details
 
