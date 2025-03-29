@@ -8,7 +8,6 @@ Given the privacy risks at hand, can we generalize the published data to maintai
 
 [Incognito](https://dl.acm.org/doi/10.1145/1066157.1066164) offers an efficient means of implementing $k$-anonymization via full domain generalization. 
 
-
 ## Data
 
 The data being generalized here originally come from the Texas Department of Health and Human Services. The Department's 2021 Induced Terminations of Pregnancy (ITOP) [data](https://www.hhs.texas.gov/about/records-statistics/data-statistics/itop-statistics) contains two datasets of interest:
@@ -16,7 +15,7 @@ The data being generalized here originally come from the Texas Department of Hea
 * 2021 Induced Terminations of Pregnancy by Age and County of Residence
 * 2021 Induced Terminations of Pregnancy by Race/Ethnicity and County of Residence
 
-## Implementation Details
+## Incognito Background
 
 We begin with a generalization hierarchy of the domain by which the domain is generalized. See Le Fevre et al.'s [paper](https://dl.acm.org/doi/10.1145/1066157.1066164) for details.
 
@@ -35,7 +34,9 @@ If T doesn’t satisfy $k$-anonymity with respect to P, then T doesn’t satisfy
 
 Practically speaking, the (anti-)subset property allows us to navigate and prune nodes in the lattice more efficiently. For example, if a node fails to satisfy the desired privacy criterion, then a node evaluated subsequently in the algorithm that is a superset of the attributes of the original node will fail to satisfy the privacy criterion as well. 
 
-<<<<<<< HEAD
+## Partial Incognito Implementation
+A Partial Incognito Implementation Guide in `R` has been prepared.
+
 ## Questions
 
 Questions can be directed to Varoon Bashyakarla (vkb [at] berkeley.edu)
