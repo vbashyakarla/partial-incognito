@@ -39,7 +39,7 @@ A Partial Incognito Implementation Guide in `R` has been prepared.
 
 ## Questions
 
-Questions can be directed to Varoon Bashyakarla (vkb [at] berkeley.edu)
+Questions can be directed to Varoon (vkb [at] berkeley.edu)
 
 ## References
 
