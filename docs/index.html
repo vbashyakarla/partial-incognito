@@ -43,23 +43,35 @@
         <h1>Partial Incognito</h1>
 
         <h2>Project Overview</h2>
-        <p>Overview here.
+        <p>As part of a study on the privacy risks and possible mitigations
+        in 2021 Texas state data on induced terminations
+        of pregnancy, a partial implementation of
+        <a href="https://dl.acm.org/doi/10.1145/1066157.1066164"> Incognito</a> --
+        an algorithm for efficient full-domain
+        K-anonymity -- published by LeFevre et al. was written in R.
+
           <br>
           <br>
-        Description here.
+        This implementation is considered only partial because when traversing lattices,
+        if a node is found to satisfy the privacy requirement specified,
+        the privacy metric of any child nodes (i.e., generalizations) is also calculated.
+        These computations are unnecessary.
           <br>
           <br>
-          More details here:
+          To assist reseachers who wish to reproduce our findings, who wish to leverage this
+          implementation of Partial Incognito for their own work, or who wish to extend the
+          existing implementation into a full, working version of Incognito, we have furnished
+          our code here.
         </p>
 
         <h2>Related Links</h2>
         <ul>
-            <li><a href="https://google.com">Paper</a></li>
-            <li><a href="https://google.com">GitHub Repo</a></li>
-            <li><a href="https://google.com">Source Data</a></li>
+            <li><a href="https://drive.google.com/file/d/1nqHl_7OPAchQPVDYEmY_Tl5uPXhc_tSw/view?usp=sharing">Paper Manuscript</a></li>
+            <li><a href="https://github.com/vbashyakarla/partial-incognito">GitHub Repo</a></li>
+            <li><a href="https://www.hhs.texas.gov/about/records-statistics/data-statistics/itop-statistics">Data Source</a></li>
 
         </ul>
-        <a href="https://google.com" class="link-button">View Partial Incognito Implementation Guide</a>
+        <a href="https://vbashyakarla.github.io/tornado-mag/partial-incognito.html" class="link-button">View Partial Incognito Implementation Guide</a>
     </div>
 </body>
 </html>
