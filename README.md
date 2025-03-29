@@ -35,9 +35,11 @@ If T doesn’t satisfy $k$-anonymity with respect to P, then T doesn’t satisfy
 
 Practically speaking, the (anti-)subset property allows us to navigate and prune nodes in the lattice more efficiently. For example, if a node fails to satisfy the desired privacy criterion, then a node evaluated subsequently in the algorithm that is a superset of the attributes of the original node will fail to satisfy the privacy criterion as well. 
 
+<<<<<<< HEAD
 ## Questions
 
 Questions can be directed to Varoon Bashyakarla (vkb [at] berkeley.edu)
 
 ## References
+
 Professor Daniel Aranki Privacy Engineering Lecture Notes ("Anonymization Algorithms I")
